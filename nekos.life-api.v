@@ -55,7 +55,7 @@ fn main() {
 }
 
 fn (mut app App) index() vweb.Result {
-	return app.text('Hello world from vweb!')
+	return app.text("Hello world!")
 }
 
 fn request(endpoint string) ?&ResultJSON {
